@@ -1,0 +1,2 @@
+// Lists all materials in the school collection that have the name "Holberton school".
+db.school.find({name: "Holberton school"}).forEach(printjson);
