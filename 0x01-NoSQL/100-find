@@ -1,0 +1,3 @@
+// A script that lists all papers with names beginning with 
+//- Holberton in the collection school.
+db.school.find({name: /^Holberton/ })
